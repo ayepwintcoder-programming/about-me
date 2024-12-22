@@ -1,0 +1,136 @@
+.navbar-nav{
+    margin-left: 430px;
+    font-size: 20px;
+}
+.nav-item{
+    margin: 20px;
+}
+.navbar-nav .nav-link.active, .nav-item:hover{
+font-weight: bold;
+border-bottom: 2px solid rgb(101, 189, 101);
+}
+.navbar-nav .nav-link:hover{
+    color:rgb(88, 194, 88);   
+}
+
+.nav-item .nav-link{
+    color:white;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 690px){
+    .navbar-nav{
+        margin-left: 210px;
+        font-size: 20px;
+    }
+    .nav-item{
+        margin: 0px;
+    }
+    img .header{
+        height:500vh;
+        position:relative;
+        width:100%;
+    }
+}
+
+.header{
+    height: 100vh;position:relative;width:100%;
+}
+.para{
+    border:3px solid black;
+    border-radius: 30px;
+    margin: 25px;
+    padding: 30px;
+}
+#about{
+    margin: 20px;
+}
+.state{
+    color: white;
+}
+.skills{
+    border-left: 2px solid black;
+}
+#row1{
+    height: 600px;
+}
+#one{
+    height: 200px;
+    width: 0%;
+    transition: width 2s;
+    display: inline;
+}
+#two{
+    height: 200px;
+    width: 0%;
+    transition: width 2s;
+    display: inline;
+}
+#three{
+    height: 200px;
+    width: 0%;
+    transition: width 2s;
+    display: inline;
+}
+#about:hover #one{
+    width: 90%;
+}
+#about:hover #two{
+    width: 60%;
+}
+#about:hover #three{
+    width: 50%;
+}
+
+#hs{
+    border:3px solid white;border-radius: 100px;width:500px;height:80px;text-align:center;padding-top:13px;color:white;margin:auto;font-size:30px;
+}
+#first{
+    width: 700px;
+    height: 800px;
+    border: 5px solid black;
+    margin-right: 50px; 
+   background-image: linear-gradient(to bottom, purple, pink);
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px;
+    transition: transform 3s;
+}
+#first:hover{
+    transform: rotateY(360deg);
+}
+#second{
+    width: 700px;
+    height: 800px;
+    border: 5px solid black;
+    float: left;
+    background-image: linear-gradient(to bottom, #4b268c,#93add9);
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px;
+    transition: transform 3s;
+}
+#second:hover{
+    transform: rotateY(360deg);
+}
+
+#kdf{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+}
+
+#info{
+    width: 20%;
+    margin-right: 20px;
+    margin-top: 160px;
+    margin-bottom: 160px;
+    margin-left: 80px;
+}
+.map{
+    margin-left: 0px;
+    width: 750px;
+    height: 700px;
+}
+#map{
+    width: 80%
+}
